@@ -15,7 +15,7 @@
 	a = 'hello'
 	a = ('a', 'b', 'c')
 	for ch in a:
-	  print(ch)	
+	    print(ch)	
 	```
 	3. for문과 list
 	```
@@ -39,8 +39,7 @@
 	```
 	2. for문과 dict
 	```
-	person = {  'name':'홍길동', 
-		    'age':25 }
+	person = {  'name':'홍길동', 'age':25 }
 	for key in person:
 	    print(key, person[key])
 	```
