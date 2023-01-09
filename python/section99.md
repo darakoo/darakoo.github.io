@@ -4,6 +4,7 @@
 - 주석 : ctrl + /
 - 줄 이동 : alt + 방향키
 - 현재라인잘라내기 : ctrl + x
+- 현재라인복사 : ctrl + c
 - 새파일 만들기 : ctrl + n
 - 현재문서 닫기 : ctrl + F4
 - 자동완성 : ctrl + space
