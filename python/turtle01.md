@@ -1,5 +1,6 @@
-# [turtle 기본문법]
-## Draw a line
+# [turtle 기본 문법]
+
+## 환경설정
 ```
 import turtle
 turtle.bgcolor("orange")    # 배경색
@@ -10,23 +11,23 @@ t.width(5)                  # 선굵기
 t.speed("fast")             # 속도
 t.shape("circle")           # arrow, turtle, circle, square, triangle, classic 
 
-# 선그리기
+# 원그리기
+t.circle(100)
+
+t.done()
+```
+
+## Draw a line
+```
+import turtle
+
+t = turtle.Turtle()
+
 t.fd(100)     # forward 단축
 t.rt(90)      # right 단축
 t.fd(100)     
 t.lt(90)      # left 단축
 t.fd(100)     
-
-# 펜이동하기
-t.penup()                   # 펜들기(그리지멈춤)
-t.goto(-100, 100)           # 좌표이동
-t.pendown()                 # 펜내리기(그리기시작)
-
-# 원그리기/색채우기
-t.fillcolor("green")
-t.begin_fill()
-t.circle(100)
-t.end_fill()
 
 t.done()
 ```
@@ -55,10 +56,8 @@ turtle.done()
 ## Drawing a triangle.
 ```
 import turtle
-turtle.bgcolor("orange")
+
 t = turtle.Turtle()
-t.width(5)
-t.shape("circle")
 
 t.fd(100)
 t.rt(120)
@@ -75,14 +74,19 @@ import turtle
 
 t = turtle.Turtle()
 
+# 원그리기
 t.circle(100)
 
-t.penup()
-t.goto(120, 0)
-t.pendown()
+# 펜이동하기
+t.penup()                   # 펜들기(그리지멈춤)
+t.goto(-100, 100)           # 좌표이동
+t.pendown()                 # 펜내리기(그리기시작)
 
+# 원그리기/색채우기
+t.fillcolor("green")
+t.begin_fill()
 t.circle(100)
-
+t.end_fill()
 
 t.done()
 ```
