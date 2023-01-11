@@ -1,9 +1,6 @@
 # [section06 반복문 while]
 
-01. 반복문이란?
-	- 반복문
-	- 반복문의 종류
-02. while문
+01. while문
 	```
 	n = 1
 	while n <= 10:
@@ -16,6 +13,12 @@
 	while n >= 1:
 	    print(n, end=' ')
 	    n -= 1
+	    
+	while True:
+	    pwd = input('비밀번호를 입력하세요 >>> ')
+	    if pwd == "0000":
+		print('비밀번호를 맞혔습니다.')
+		break
 	```
 
 ### MISSION ###
