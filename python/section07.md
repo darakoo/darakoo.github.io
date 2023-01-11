@@ -42,9 +42,13 @@
 	for item in {'가위', '바위', '보'}:
 	    print(item)
 	```
+	```
+	for data in {'가위', '바위', '보'}:
+	    print(data)
+	```
 	2. for문과 dict
 	```
-	person = {  'name':'홍길동', 'age':25 }
+	person = { 'name':'홍길동', 'age':25 }
 	for key in person:
 	    print(key, person[key])
 	```
