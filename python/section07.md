@@ -52,6 +52,14 @@
 	for key in person:
 	    print(key, person[key])
 	```
+04. 중첩 for문
+	```
+	# 구구단 출력
+	for dan in range(2, 10):
+	    print(f'[{dan}단]')
+	    for n in range(1, 10):
+		print(f"{dan}x{n}={dan*n}")
+	```
 
 ### MISSION ###
 - for문을 이용해 정해진 횟수만큼 반복해서 실행하는 코드를 작성할 수 있다.
