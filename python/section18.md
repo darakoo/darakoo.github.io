@@ -21,25 +21,25 @@
         ```
 
 03. 웹 크롤링 소스 분석
-        ```
-            # 1. 외부모듈 import
-            import requests
-            from bs4 import BeautifulSoup
+    ```
+    # 1. 외부모듈 import
+    import requests
+    from bs4 import BeautifulSoup
 
-            # 2. html 소스 추출
-            url = 'https://movie.naver.com/movie/bi/mi/basic.nhn'
-            param = {'code': 207921}
-            response = requests.get(url, params=param)
-            html = response.text
+    # 2. html 소스 추출
+    url = 'https://movie.naver.com/movie/bi/mi/basic.nhn'
+    param = {'code': 207921}
+    response = requests.get(url, params=param)
+    html = response.text
 
-            # 3. BeautifulSoup 객체 생성
-            soup = BeautifulSoup(html, 'html.parser')
+    # 3. BeautifulSoup 객체 생성
+    soup = BeautifulSoup(html, 'html.parser')
 
-            # 4. 데이터 분석
-            review_list = soup.find_all('div', class_='score_reple')
-            for review in review_list:
-                print(review.find('p').text.strip())
-        ```
+    # 4. 데이터 분석
+    review_list = soup.find_all('div', class_='score_reple')
+    for review in review_list:
+        print(review.find('p').text.strip())
+    ```
 
 ### MISSION ###
 - HTTP 요청을 수행하는 requests 라이브러리를 이용해서 웹 페이지 소스 코드를 가져올 수 있습니다.
