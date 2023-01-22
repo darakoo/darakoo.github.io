@@ -23,6 +23,7 @@
 03. 웹 크롤링 소스 분석
     ```
     # 1. 외부모듈 import
+    import pandas as pd
     import requests
     from bs4 import BeautifulSoup
 
@@ -42,7 +43,6 @@
         reviews.append(review.find('p').text.strip()
         
     # 5. 데이터 저장
-    import pandas as pd
     df = pd.DataFrame({"영화리뷰":reviews})
     df.to_excel("영화리뷰.xlsx", index=False)
     ```
