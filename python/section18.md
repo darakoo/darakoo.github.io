@@ -36,9 +36,15 @@
     soup = BeautifulSoup(html, 'html.parser')
 
     # 4. 데이터 분석
+    reviews = list()
     review_list = soup.find_all('div', class_='score_reple')
     for review in review_list:
-        print(review.find('p').text.strip())
+        reviews.append(review.find('p').text.strip()
+        
+    # 5. 데이터 저장
+    import pandas as pd
+    df = pd.DataFrame({"영화리뷰":reviews})
+    df.to_excel("영화리뷰.xlsx", index=False)
     ```
 
 ### MISSION ###
