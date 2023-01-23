@@ -21,6 +21,7 @@
         ```
 
 03. 웹 크롤링 소스 분석
+<img src="/img/python/01-install.png" width="30%" height="30%">
     ```
     # 1. 외부모듈 import
     import requests
