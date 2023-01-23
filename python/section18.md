@@ -21,8 +21,8 @@
         ```
 
 03. 웹 크롤링 소스 분석
-    - yes24 책 설명 가져오기
     <img src="/img/python/yes24.png" width="100%" height="100%">
+    - yes24 책 설명 가져오기
     
     ```
     # 1. 외부모듈 import
