@@ -23,31 +23,28 @@
 03. 웹 크롤링 소스 분석
     ```
     # 1. 외부모듈 import
-    import pandas as pd
     import requests
     from bs4 import BeautifulSoup
+    import pandas as pd
 
     # 2. html 소스 추출
-    url = 'https://movie.naver.com/movie/bi/mi/basic.nhn'
+    url = "http://www.yes24.com/Product/Goods/116046489"
     # get user agent string 검색
-    # headers = {"Ueser-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"} 
+    # headers = {"Ueser-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"}
     # res = requests.get(url, headers=headers)
-    param = {'code': 207921}
-    res = requests.get(url, params=param)
-    html = res.text
+    res = requests.get(url)
+    res.raise_for_status()
 
     # 3. BeautifulSoup 객체 생성
-    soup = BeautifulSoup(html, 'html.parser')
+    soup = BeautifulSoup(res.text, "lxml")
 
     # 4. 데이터 분석
-    reviews = list()
-    review_list = soup.find_all('div', class_='score_reple')
-    for review in review_list:
-        reviews.append(review.find('p').text.strip()
-        
+    contents = soup.find("div", attrs={"class":"infoWrap_mdBox"}).find("dd").get_text().strip()
+    print(contents)              
+
     # 5. 데이터 저장
-    df = pd.DataFrame({"영화리뷰":reviews})
-    df.to_excel("영화리뷰.xlsx", index=False)
+    with open('책소개.txt', 'wt') as file:
+        file.write(contents)
     ```
 
 ### MISSION ###
