@@ -29,9 +29,12 @@
 
     # 2. html 소스 추출
     url = 'https://movie.naver.com/movie/bi/mi/basic.nhn'
+    # get user agent string 검색
+    # headers = {"Ueser-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"} 
+    # res = requests.get(url, headers=headers)
     param = {'code': 207921}
-    response = requests.get(url, params=param)
-    html = response.text
+    res = requests.get(url, params=param)
+    html = res.text
 
     # 3. BeautifulSoup 객체 생성
     soup = BeautifulSoup(html, 'html.parser')
