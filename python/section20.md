@@ -33,7 +33,7 @@
 
 2. 코드비교(넘파이 vs 파이썬)
 - 파이썬과 비교하여 간결한 코드를 만들 수 있다. 
-	```
+```
 	import numpy as np
 
 	# y = 2x + 8 (단, 0<=x<20)에서 y의 값에 해당하는 list
@@ -61,7 +61,7 @@
 	b_np = np.array([4,5,6])
 	result_np = a_np + b_np
 	print(result_np)
-	```
+```
 
 3. 공식문서
 	- https://numpy.org/
@@ -77,6 +77,6 @@
 	- 공식문서 : https://matplotlib.org/
 
 
-###### 참고사이트
-	- https://www.youtube.com/@user-xt4sh7kh3n/playlists
-	- https://yozm.wishket.com/magazine/detail/1567/
+#### 참고사이트
+- https://www.youtube.com/@user-xt4sh7kh3n/playlists
+- https://yozm.wishket.com/magazine/detail/1567/
