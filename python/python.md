@@ -26,6 +26,7 @@
 >> #### [turtle 01](turtle01.md)
 >> #### [turtle 02](https://github.com/darakoo/pythonstudy/tree/master/turtle_exam)
 >> ## [부록]
->> #### [section98. python naming rule](section98.md)
->> #### [section99. 알면 도움되는 기능](section99.md)
+>> #### [python naming rule](section98.md)
+>> #### [알면 도움되는 기능](section99.md)
+>> #### [데이타분석참고사이트100](data_references_100.md)
  
