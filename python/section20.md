@@ -77,6 +77,6 @@
 	- 공식문서 : https://matplotlib.org/
 
 
-### 참고사이
-- https://www.youtube.com/@user-xt4sh7kh3n/playlists
-- https://yozm.wishket.com/magazine/detail/1567/
+###### 참고사이트
+	- https://www.youtube.com/@user-xt4sh7kh3n/playlists
+	- https://yozm.wishket.com/magazine/detail/1567/
