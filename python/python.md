@@ -1,6 +1,6 @@
 # python
 
->> ## [파이썬 기본]
+>> ## [기본]
 >> #### [section01. 파이썬 설치 및 시작하기](section01.md)
 >> #### [section02. 변수와 자료형](section02.md)
 >> #### [section03. 기본 입출력](section03.md)
@@ -18,7 +18,7 @@
 >> #### [section15. 클래스와 객체1](section15.md)
 >> #### [section16. 클래스와 객체2](section16.md)
 >> #### [section17. 예외 처리](section17.md)
->> ## [파이썬 활용]
+>> ## [활용]
 >> #### [section18. 데이터 분석](section18.md)
 >> #### [section19. 웹 크롤링](section19.md)
 >> #### [section20. 데이터 시각화](section20.md)
