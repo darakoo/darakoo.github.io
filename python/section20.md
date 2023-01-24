@@ -33,35 +33,35 @@
 
 2. 코드비교(넘파이 vs 파이썬)
 - 파이썬과 비교하여 간결한 코드를 만들 수 있다. 
-```
-	import numpy as np
+	```
+		import numpy as np
 
-	# y = 2x + 8 (단, 0<=x<20)에서 y의 값에 해당하는 list
-	# python
-	result_py = []
-	for n in range(0,20):
-	    result_py.append((2*n) + 8)
-	print(result_py)
+		# y = 2x + 8 (단, 0<=x<20)에서 y의 값에 해당하는 list
+		# python
+		result_py = []
+		for n in range(0,20):
+		    result_py.append((2*n) + 8)
+		print(result_py)
 
-	# numpy
-	result_np = 2 * np.arange(0,20) + 8
-	print(result_np)
+		# numpy
+		result_np = 2 * np.arange(0,20) + 8
+		print(result_np)
 
-	# [1,2,3]과 [4,5,6]에서 같은 index끼리를 합한 list
-	# python
-	a_py = [1,2,3]
-	b_py = [4,5,6]
-	result_py = []
-	for idx in range(len(a_py)):
-	    result_py.append(a_py[idx] + b_py[idx])
-	print(result_py)
+		# [1,2,3]과 [4,5,6]에서 같은 index끼리를 합한 list
+		# python
+		a_py = [1,2,3]
+		b_py = [4,5,6]
+		result_py = []
+		for idx in range(len(a_py)):
+		    result_py.append(a_py[idx] + b_py[idx])
+		print(result_py)
 
-	# python
-	a_np = np.array([1,2,3])
-	b_np = np.array([4,5,6])
-	result_np = a_np + b_np
-	print(result_np)
-```
+		# python
+		a_np = np.array([1,2,3])
+		b_np = np.array([4,5,6])
+		result_np = a_np + b_np
+		print(result_np)
+	```
 
 3. 공식문서
 	- https://numpy.org/
