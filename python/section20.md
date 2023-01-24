@@ -70,7 +70,13 @@
 1. Matplot
 	- MATLAB-인터페이스 기반의 Python 라이브러리이다.
 	- 그래프의 디테일한 설정이 가능하다.
-
+	- 공식문서 : https://matplotlib.org/
 2. Seaborn
 	- Matplot 라이브러리를 기반으로 한 통계 전용 시각화툴이다.
 	- Pandas 라이브러리와 연계가 잘 된다.
+	- 공식문서 : https://matplotlib.org/
+
+
+### 참고사이
+- https://www.youtube.com/@user-xt4sh7kh3n/playlists
+- https://yozm.wishket.com/magazine/detail/1567/
