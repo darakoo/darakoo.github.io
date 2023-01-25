@@ -57,7 +57,7 @@
 		print(result_py)
 
 		# python
-		a_np = np.array([1,2,3])
+		a_np = np.array([1,2,3]) # a_np = np.random.randint(1, 4, size=3) 
 		b_np = np.array([4,5,6])
 		result_np = a_np + b_np
 		print(result_np)
