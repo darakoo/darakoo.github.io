@@ -19,9 +19,9 @@
 >> #### [section16. 클래스와 객체2](section16.md)
 >> #### [section17. 예외 처리](section17.md)
 >> ## [활용]
->> #### [section18. 데이터 분석](section18.md)
->> #### [section19. 웹 크롤링](section19.md)
->> #### [section20. 데이터 시각화](section20.md)
+>> #### [section18. 데이터 분석 개요](section18.md)
+>> #### [section19. 데이터 수집 - 웹스크롤링](section19.md)
+>> #### [section20. 데이터 표현 - 시각화](section20.md)
 >> ## [turtle] 
 >> #### [turtle 01](turtle01.md)
 >> #### [turtle 02](https://github.com/darakoo/pythonstudy/tree/master/turtle_exam)
