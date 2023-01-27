@@ -20,7 +20,7 @@
 >> #### [section17. 예외 처리](section17.md)
 >> ## [활용]
 >> #### [section18. 데이터 분석 개요](section18.md)
->> #### [section19. 데이터 수집 - 웹스크롤링](section19.md)
+>> #### [section19. 데이터 수집 - 웹스크래핑](section19.md)
 >> #### [section20. 데이터 표현 - 시각화](section20.md)
 >> ## [turtle] 
 >> #### [turtle 01](turtle01.md)
