@@ -13,34 +13,41 @@
 	2. 객체의 개념
 		- 클래스를 통해 만들어진 형태
 
-	5. 클래스와 객체
+	5. 클래스정의와 객체생성
 	```
-		# 클래스 생성
+		# 클래스정의
 		class Person:
 		    def who_am_i(self):
 			print('클래스 실행구문')
 
-		# 객체 생성
+		# 객체생성
 		boy = Person()
 		boy.who_am_i()
 	```
 
 03. 클래스의 구성
 	1. 클래의 기본 구성
-		- 값 : 이름, 나이, 연락처, 주소            => 변수로 표현
+		- 값 : 이름, 나이, 연락처, 주소             => 변수로 표현
 		- 기능 : 잔다, 먹는다, 공부한다, 달린다.    => 메소드로 표현
+		
 	2. 인스턴스 변수와 인스턴스 메소드
 	```
 		# 클래스 정의
 		class Person:
-		    def who_am_i(self, name, age, tel, address):	# 인스턴스 메소드
-			self.name = name	# 인스턴스 변수    
-			self.age = age		# 인스턴스 변수
-			self.tel = tel		# 인스턴스 변수
-			self.address = address	# 인스턴스 변수
-		    def sleep(self):					# 인스턴스 메소드
+		    # 인스턴스 메소드
+		    def who_am_i(self, name, age, tel, address):	
+			# 인스턴스 변수  
+			self.name = name	  
+			self.age = age	
+			self.tel = tel		
+			self.address = address
+			
+		    # 인스턴스 메소드
+		    def sleep(self):					
 			print('I am sleeping')
-		    def study(self):					# 인스턴스 메소드
+			
+		    # 인스턴스 메소드
+		    def study(self):
 			print('I am studying')       
 
 		# 객체(인스턴스)생성
