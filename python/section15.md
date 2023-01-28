@@ -15,14 +15,14 @@
 
 	5. 클래스 정의와 객체 생성
 	```
-	# 클래스 정의
-	class Person:
-	    def who_am_i(self):
-		print('클래스 실행구문')
+		# 클래스 정의
+		class Person:
+		    def who_am_i(self):
+			print('클래스 실행구문')
 
-	# 객체 생성
-	boy = Person()
-	boy.who_am_i()
+		# 객체 생성
+		boy = Person()
+		boy.who_am_i()
 	```
 
 03. 클래스의 구성
@@ -31,25 +31,25 @@
 		- 기능 : 잔다, 먹는다, 공부한다, 달린다.    => 메소드로 표현
 	2. 인스턴스 변수와 인스턴스 메소드
 	```
-	# 클래스 정의
-	class Person:
-	    def who_am_i(self, name, age, tel, address):	# 인스턴스 메소드
-		self.name = name	# 인스턴스 변수    
-		self.age = age		# 인스턴스 변수
-		self.tel = tel		# 인스턴스 변수
-		self.address = address	# 인스턴스 변수
-	    def sleep(self):					# 인스턴스 메소드
-		print('I am sleeping')
-	    def study(self):					# 인스턴스 메소드
-		print('I am studying')       
+		# 클래스 정의
+		class Person:
+		    def who_am_i(self, name, age, tel, address):	# 인스턴스 메소드
+			self.name = name	# 인스턴스 변수    
+			self.age = age		# 인스턴스 변수
+			self.tel = tel		# 인스턴스 변수
+			self.address = address	# 인스턴스 변수
+		    def sleep(self):					# 인스턴스 메소드
+			print('I am sleeping')
+		    def study(self):					# 인스턴스 메소드
+			print('I am studying')       
 
-	# 객체(인스턴스)생성
-	person = Person()
+		# 객체(인스턴스)생성
+		person = Person()
 
-	# 인스턴스 메소드 호출
-	person.who_am_i('john', 15, '123-1234', 'toronto')
-	person.sleep()
-	person.study()
+		# 인스턴스 메소드 호출
+		person.who_am_i('john', 15, '123-1234', 'toronto')
+		person.sleep()
+		person.study()
 	```
 
 ### MISSION ###
