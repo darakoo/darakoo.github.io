@@ -19,7 +19,7 @@
 		- 표 형태의 데이터를 다루기 위한 시리즈(Series)와 데이터프레임(DataFrame) 클래스를 제공한다.
 			- Series : 1차원 자료구조를 표현(벡터)
 			- DataFrame : 행렬의 표를 표현
-			<img src="/img/python/pandas.jpg" width="100%" height="100%">
+			<img src="/img/python/pandas.jpg" width="60%" height="60%">
 			
 			https://laboputer.github.io/
 
