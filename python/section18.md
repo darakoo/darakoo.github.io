@@ -19,6 +19,7 @@
 		- 표 형태의 데이터를 다루기 위한 시리즈(Series)와 데이터프레임(DataFrame) 클래스를 제공한다.
 			- Series : 1차원 자료구조를 표현(벡터)
 			- DataFrame : 행렬의 표를 표현
+			<img src="/img/python/pandas.jpg" width="100%" height="100%">
 			
 			https://laboputer.github.io/
 
@@ -78,6 +79,7 @@
 	- 공식사이트 : [https://matplotlib.org/](https://matplotlib.org/)
 
 
-#### 참고사이트
+#### 참고
 - https://www.youtube.com/@user-xt4sh7kh3n/playlists
 - https://yozm.wishket.com/magazine/detail/1567/
+- https://laboputer.github.io/
