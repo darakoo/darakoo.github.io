@@ -21,8 +21,7 @@
 			- DataFrame : 행렬의 표를 표현
 
 	2. 공식문서
-		- https://pandas.pydata.org/
-		- https://pandas.pydata.org/docs/
+		- (https://pandas.pydata.org/)
 
 
 	## 2. Numpy(넘파이)
