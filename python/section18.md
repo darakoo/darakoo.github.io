@@ -12,7 +12,7 @@
 	- 데이터 분석 및 결과 공유
 
 # 2. 자주사용하는 모듈
-1. Pandas(판다스)
+1. Pandas(판다스)(https://pandas.pydata.org/)
 	1. 정의
 		- 표 형태의 데이터를 다루는데 특화된 파이썬 모듈이다.
 		- 엑셀의 기능을 제공하는 파이썬 모듈이라고 생각하면 이해가 쉽다.
@@ -20,8 +20,6 @@
 			- Series : 1차원 자료구조를 표현(벡터)
 			- DataFrame : 행렬의 표를 표현
 			<img src="/img/python/pandas.jpg" width="60%" height="60%">
-			
-			https://laboputer.github.io/
 
 	2. 공식사이트 : [https://pandas.pydata.org/](https://pandas.pydata.org/)
 
