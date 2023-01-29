@@ -67,7 +67,7 @@
 
 	3. 공식사이트 : [https://numpy.org/](https://numpy.org/)
 
-# 4. 데이타 시각화
+# 3. 데이타 시각화
 1. Matplot
 	- MATLAB-인터페이스 기반의 Python 라이브러리이다.
 	- 그래프의 디테일한 설정이 가능하다.
