@@ -20,11 +20,10 @@
 			- Series : 1차원 자료구조를 표현(벡터)
 			- DataFrame : 행렬의 표를 표현
 
-	2. 공식문서
-		- [https://pandas.pydata.org/](https://pandas.pydata.org/)
+	2. 공식사이트 : [https://pandas.pydata.org/](https://pandas.pydata.org/)
 
 
-	## 2. Numpy(넘파이)
+2. Numpy(넘파이)
 	1. 정의
 		- Numerical Python으로 수치 계산을 위해 만들어진 파이썬 라이브러리다.
 		- 행렬이나 일반적으로 대규모 다차원 배열을 쉽게 처리할 수 있다.
@@ -63,18 +62,17 @@
 			print(result_np)
 		```
 
-	3. 공식문서
-		- https://numpy.org/
+	3. 공식사이트 : [https://numpy.org/](https://numpy.org/)
 
 # 4. 데이타 시각화
 1. Matplot
 	- MATLAB-인터페이스 기반의 Python 라이브러리이다.
 	- 그래프의 디테일한 설정이 가능하다.
-	- 공식문서 : https://matplotlib.org/
+	- 공식사이트 : [https://matplotlib.org/](https://matplotlib.org/)
 2. Seaborn
 	- Matplot 라이브러리를 기반으로 한 통계 전용 시각화툴이다.
 	- Pandas 라이브러리와 연계가 잘 된다.
-	- 공식문서 : https://matplotlib.org/
+	- 공식사이트 : [https://matplotlib.org/](https://matplotlib.org/)
 
 
 #### 참고사이트
