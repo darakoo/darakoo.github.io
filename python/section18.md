@@ -72,6 +72,7 @@
 2. Seaborn
 	- Matplot 라이브러리를 기반으로 한 통계 전용 시각화툴이다.
 	- Pandas 라이브러리와 연계가 잘 된다.
+	- 사용법이 비교적 쉽다.
 	- 공식사이트 : [https://matplotlib.org/](https://matplotlib.org/)
 
 
