@@ -20,8 +20,7 @@
         pip install BeautifulSoup4        
         ```
 
-03. 웹 크롤링 소스 분석
-    - yes24 책 설명 가져오기
+03. 웹 크롤링 소스 분석(yes24 도서 정보 조회)
     <img src="/img/python/yes24.png" width="80%" height="80%">
     
     
