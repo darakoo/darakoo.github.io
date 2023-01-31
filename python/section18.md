@@ -33,7 +33,7 @@
 
 	3. 코드비교(numpy vs python)
 	- 파이썬과 비교하여 간결한 코드를 만들 수 있다.
-	- y = 2x + 8 (단, 0<=x<20)에서 y의 값에 해당하는 list 
+
 		```
 			# y = 2x + 8 (단, 0<=x<20)에서 y의 값에 해당하는 list
 			import numpy as np
@@ -48,7 +48,7 @@
 			result_np = 2 * np.arange(0,20) + 8
 			print(result_np)
 		```
-	- [1,2,3]과 [4,5,6]에서 같은 index끼리를 합한 list
+
 		```
 			# [1,2,3]과 [4,5,6]에서 같은 index끼리를 합한 list
 			
