@@ -21,7 +21,7 @@
         ```
 
 03. 웹 크롤링 소스 분석
-    <img src="/img/python/yes24.png" width="60%" height="60%">
+    <img src="/img/python/yes24.png" width="80%" height="80%">
     - yes24 책 설명 가져오기
     
     ```
