@@ -21,7 +21,7 @@
 >> ## [활용]
 >> #### [section18. 데이터 분석 개요](section18.md)
 >> #### [section19. 데이터 수집 - 웹크롤링](section19.md)
->> #### [section20. 데이터 표현 - 시각화](section20.md)
+>> #### [section20. 데이터 표현 - 시각화]
 >> ## [turtle] 
 >> #### [turtle 01](turtle01.md)
 >> #### [turtle 02](https://github.com/darakoo/pythonstudy/tree/master/turtle_exam)
