@@ -5,7 +5,7 @@
         - 웹 페이지에서 필요한 정보를 수집하고 선별하여 추출하는 과정이다.
     2. HTML의 개념과 구조 이해하기
         - html 문법 이해하기
-        - class : 여러요소에서중복사용가능, id : 유일한 값 (https://bangu4.tistory.com/26 참고)
+        - class : 여러요소에서중복사용가능, id : 유일한 값
         - 웹 사이트 접속 => F12 개발자 도구에서 소스 확인하기
     
     3. URL(Uniform Resource Locator)이란
@@ -14,15 +14,14 @@
 
 02. 웹 크롤링의 준비
     - 크롬 브라우저 설치
-    - requests, BeautifulSoup 명령 프롬프트에서 설치하기
+    - 외부모듈 설치
         ```
-        pip install requests
-        pip install BeautifulSoup4        
+        pip install requests BeautifulSoup4 
+        pip install pandas lxml openpyxl 
         ```
 
 03. 웹 크롤링 소스 분석(yes24 도서 정보 조회)
     <img src="/img/python/yes24.png" width="80%" height="80%">
-    
     
     ```
         # 1. 외부모듈 import
