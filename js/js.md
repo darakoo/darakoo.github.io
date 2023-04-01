@@ -1,1 +1,3 @@
-javascript 탄생배경ㅓ
+# JavaScript
+
+>> #### [ch01. JavaScript 탄생배경](ch01.md)
