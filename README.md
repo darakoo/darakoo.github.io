@@ -1,3 +1,3 @@
 > # [python](python/python.md)
-> # [java]
-> # [C]
+> # [java](java/java.md)
+> # [C](c/c.md)
