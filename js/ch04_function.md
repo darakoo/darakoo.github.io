@@ -2,7 +2,7 @@
 ## function
 
 * parameters
-- 함수 매개변수는 참조로 전달되기때문에 함수에서 변경은 obj name 변경이 가능하다.
+  - 함수 매개변수는 참조로 전달되기때문에 함수에서 변경은 obj name 변경이 가능하다.
 ```
 function changeName(obj){
   obj.name = 'coder';
@@ -14,7 +14,7 @@ console.name(ellie.name); // coder
 ```
 
 * default parameters
-- added in ES6
+  - added in ES6
 ```
 function showMessage(message, from = 'unknown'){
   console.log(`${message} from ${from}`);
@@ -39,4 +39,27 @@ function printAll(...args){
 }
 
 printAll(3,4,5);
+```
+
+* function expression
+```
+const print = function() {
+  console.log('hello');
+}
+print();
+const printAgain = print;
+printAgain();
+```
+
+* callback function
+
+* arrow function
+  - alway anonymous
+```
+const print = () => console.log('hello');
+const add = (a, b) => a + b;
+const simpleMultiply = (a, b) => {
+  do somethting more
+  return a + b;
+}
 ```
