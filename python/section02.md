@@ -36,7 +36,7 @@
 		- 공백을 포함할 수 없습니다.
 		- 가급적 알파벳을 사용해주세요.
 		- 유의미한 뜻으로 짓되 누구나 알 수 있어야 합니다.
-   		- 공통표준용어참고 https://wordic.loeaf.com/variable-name
+		- <a href="https://wordic.loeaf.com/variable-name">공통표준용어참고</a>
 	```
 	name = 'Alice'      
 	age = 25
