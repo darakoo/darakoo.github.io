@@ -40,24 +40,23 @@
 
 03. 파일 읽기
     1) read
-	    - 파일 전체를 한 번에 읽어 들인다.
-	    - 한번에 읽어 들일 양이 많을 경우 많은 메모리 공간이 필요 할 수 있다. 
+	- 파일 전체를 한 번에 읽어 들인다.
+	- 한번에 읽어 들일 양이 많을 경우 많은 메모리 공간이 필요 할 수 있다. 
 	```
 		file = open('hello.txt', 'rt', encoding='utf-8')
 		str = file.read()
 		print(str)
 		file.close()
 	```
-	    
     2) readline
-	    - 한줄씩만 읽는다.
-	    - 더 이상 읽어 들일 데이터가 없으면 빈문자열('')을 반환 한다.
+	- 한줄씩만 읽는다.
+	- 더 이상 읽어 들일 데이터가 없으면 빈문자열('')을 반환 한다.
 	```
 		# 방법1
 		while str != '':
 		    str = file.readline()
 		    print(str, end='')
-
+	
 		# 방법2
 		while True:
 		    str = file.readline()
