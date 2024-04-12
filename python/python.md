@@ -22,15 +22,14 @@
 >> #### [section15. 클래스와 객체1](section15.md)
 >> #### [section16. 클래스와 객체2](section16.md)
 >> #### [section17. 예외 처리](section17.md)
->> 
+<br><br><br>
 >> ## [활용-데이터]
 >> #### [section18. 데이터 수집 - 웹크롤링](section18.md)
 >> #### [section19. 데이터 분석 - 넘파이, 판다스, 시각화](section19.md)
->>
 >> ## [활용-turtle] 
 >> #### [turtle 01](turtle01.md)
 >> #### [turtle 02](https://github.com/darakoo/pythonstudy/tree/master/turtle_exam)
->>
+<br><br><br>
 >> ## [참고]
 >> #### [python naming rule](section98.md)
 >> #### [알면 도움되는 기능](section99.md)
