@@ -6,14 +6,18 @@
 	while n <= 10:
 	    print(n, end=' ')
 	    n += 1
+	```
 
+ 	```
 	print()
 
 	n = 10
 	while n >= 1:
 	    print(n, end=' ')
 	    n -= 1
-	    
+	```
+
+	```
 	while True:
 	    pwd = input('비밀번호를 입력하세요 >>> ')
 	    if pwd == "0000":
