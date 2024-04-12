@@ -23,7 +23,7 @@
 02. 표준 모듈
     - 표준모듈이란 파이썬에 기본적으로 설치되어 있는 모듈이다.
     - 내장 함수나 메소드로 처리할 수 없는 많은 작업들을 표준 모듈로 해결할 수 있다.
-    - https://docs.python.org/ko/3/library/index.html 사이트에 모듈부분 확인
+    - <a href="https://docs.python.org/ko/3/library/index.html">모듈 참고 사이트</a>
     - 표준 모듈 종류 : math, random, time, datetime
 
 03. 외부 모듈
