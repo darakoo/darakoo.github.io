@@ -4,22 +4,22 @@
 ```
 n = 1
 while n <= 10:
-    print(n, end=' ')
-    n += 1
+  print(n, end=' ')
+  n += 1
 ```
 ```
 print()
 n = 10
 while n >= 1:
-    print(n, end=' ')
-    n -= 1
+  print(n, end=' ')
+  n -= 1
 ```
 ```
 while True:
-    pwd = input('비밀번호를 입력하세요 >>> ')
-    if pwd == "0000":
-	print('비밀번호를 맞혔습니다.')
-	break
+  pwd = input('비밀번호를 입력하세요 >>> ')
+  if pwd == "0000":
+    print('비밀번호를 맞혔습니다.')
+    break
 ```
 ### MISSION ###
 - while문을 이용하면 특정 조건을 만족하는 동안 계속해서 실행되는 코드를 작성할 수 있다.
