@@ -66,8 +66,8 @@
 		file.close()
 	```
 	
-    3) readlines
-	    - 전체 라인을 모두 읽어 각 라인 단위로 리스트에 저장한다.
+	3. readlines
+	- 전체 라인을 모두 읽어 각 라인 단위로 리스트에 저장한다.
 	```
 		file = open('hello.txt', 'rt', encoding='utf-8')
 		line_list = file.readlines()
