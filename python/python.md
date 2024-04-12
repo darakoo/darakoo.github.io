@@ -1,7 +1,7 @@
 # python
 
 >> ## [기본]
->> #### [파이썬 기초]
+>> #### [시작하기]
 >> #### [section01. 파이썬 설치 및 시작하기](section01.md)
 >> #### [section02. 변수와 자료형](section02.md)
 >> #### [section03. 기본 입출력](section03.md)
