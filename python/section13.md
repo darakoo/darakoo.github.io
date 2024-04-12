@@ -52,12 +52,11 @@
 	- 한줄씩만 읽는다.
 	- 더 이상 읽어 들일 데이터가 없으면 빈문자열('')을 반환 한다.
 	```
-		# 방법1
+		# exam1
 		while str != '':
 		    str = file.readline()
 		    print(str, end='')
-	
-		# 방법2
+		# exam2
 		while True:
 		    str = file.readline()
 		    if str == '':
