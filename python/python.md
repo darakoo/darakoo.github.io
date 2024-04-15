@@ -26,6 +26,7 @@
 >> ## [활용-데이터]
 >> #### [section18. 데이터 수집 - 웹크롤링](section18.md)
 >> #### [section19. 데이터 분석 - 넘파이, 판다스, 시각화](section19.md)
+>> #### <a href="https://wikidocs.net/155715">[도서] 사장님 몰래하는 파이썬 업무 자동화</a>
 >> ## [활용-turtle] 
 >> #### [turtle 01](turtle01.md)
 >> #### [turtle 02](https://github.com/darakoo/pythonstudy/tree/master/turtle_exam)
