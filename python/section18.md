@@ -6,8 +6,7 @@
     2. HTML의 개념과 구조 이해하기
         - html 문법 이해하기
         - class : 여러요소에서중복사용가능, id : 유일한 값
-        - 웹 사이트 접속 => F12 개발자 도구에서 소스 확인하기
-    
+        - 개발자 도구(F12) 활용하기
     3. URL(Uniform Resource Locator)이란
         - 웹 페이지 주소이다.
         - ex) https://www.naver.com/
@@ -49,6 +48,7 @@
             file.write(contents)
     ```
 
+   
 ### MISSION ###
 - HTTP 요청을 수행하는 requests 라이브러리를 이용해서 웹 페이지 소스 코드를 가져올 수 있습니다.
 - HTML 문서를 쉽게 분석할 수 있는 BeautifulSoup 라이브러리를 통해서 웹 크롤링을 수행할 수 있습니다.
